@@ -42,8 +42,8 @@ git clone https://github.com/ekachaikanya/it464-Test02-Docker-Container-2
 ตั้งค่าตัวตนผู้ใช้งาน (Identity) ก่อนเริ่มบันทึกงาน:
 
 ```bash
-git config --global user.name "username ของนักศึกษา"
-git config --global user.email "email ของนักศึกษา"
+git config --global user.name "jeranunauem-droid"
+git config --global user.email "jeranun.auem@bumail.net"
 
 
 #### สร้าง Repository ใหม่ของตนเองบน GitHub โดยตั้งชื่อตามรูปแบบ: it464-Test02-Docker-Container-2-[username ของนักศึกษา]
@@ -52,7 +52,7 @@ git init (หากยังไม่ได้เริ่มต้น)
 git add .
 git commit -m "first commit"
 git branch -M main
-git remote add origin2 [URL ของ git repo ที่นักศึกษาเสนอสร้างใหม่ในข้อ 3]
+git remote add origin2 https://github.com/jeranunauem-droid/it464-Test02-Docker-Container-2_1660701226.git
 git push -u origin2 main
 ```
 
@@ -115,7 +115,7 @@ HTTP_PORT=11601
 
 PMA_PORT=11602
 
-DB_NAME=jubjub
+DB_NAME=jeranun.auem
 
 DB_USER=root
 
