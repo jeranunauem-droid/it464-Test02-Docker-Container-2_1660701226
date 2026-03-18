@@ -115,7 +115,7 @@ HTTP_PORT=11601
 
 PMA_PORT=11602
 
-DB_NAME=_________
+DB_NAME=jubjub
 
 DB_USER=root
 
